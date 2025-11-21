@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TestCaseDarkMode</name>
+   <name>TestCaseLogin_sprint2</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>64ac4d23-47c1-4cf5-bdaf-8ae58de44323</testCaseGuid>
+   <testCaseGuid>461ef0b5-355a-4bbf-b761-54a6737493ef</testCaseGuid>
 </TestCaseEntity>
