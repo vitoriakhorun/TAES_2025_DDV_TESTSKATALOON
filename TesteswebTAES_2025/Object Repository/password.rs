@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,8 +14,12 @@
 &#xd;
 </value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;password&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

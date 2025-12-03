@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>email</name>
+   <name>input_avatar</name>
    <tag></tag>
-   <elementGuidId>6fcf7262-babe-48ce-a143-852c40ef95c5</elementGuidId>
+   <elementGuidId>55f441bb-8605-46f3-ac58-0c4975209a8a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[type='email'][placeholder='seu@email.com']&#xd;
-</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;email&quot;]</value>
+         <value>//input[@id='avatarUpload']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>email</name>
+   <name>btn_choose_photo</name>
    <tag></tag>
-   <elementGuidId>6fcf7262-babe-48ce-a143-852c40ef95c5</elementGuidId>
+   <elementGuidId>ae2de60e-f239-4aaf-b0e1-2bb657b9aebb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[type='email'][placeholder='seu@email.com']&#xd;
-</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;email&quot;]</value>
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div/div[1]/div[2]/div/div[2]/div/button &#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

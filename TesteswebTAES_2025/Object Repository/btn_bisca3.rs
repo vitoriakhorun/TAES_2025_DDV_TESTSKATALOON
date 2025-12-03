@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>email</name>
+   <name>btn_bisca3</name>
    <tag></tag>
-   <elementGuidId>6fcf7262-babe-48ce-a143-852c40ef95c5</elementGuidId>
+   <elementGuidId>8e6d7c84-0bf3-46a6-8865-5665c596309a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[type='email'][placeholder='seu@email.com']&#xd;
-</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;email&quot;]</value>
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div[1]/div[2]/div[3]/button[1] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

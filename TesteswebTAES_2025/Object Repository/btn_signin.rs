@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>email</name>
+   <name>btn_signin</name>
    <tag></tag>
-   <elementGuidId>6fcf7262-babe-48ce-a143-852c40ef95c5</elementGuidId>
+   <elementGuidId>1e169c4c-9d8c-4df1-b282-8fe5397dc227</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[type='email'][placeholder='seu@email.com']&#xd;
-</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;email&quot;]</value>
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div/form/div[2]/button </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>email</name>
+   <name>pag_inicial_logada</name>
    <tag></tag>
-   <elementGuidId>6fcf7262-babe-48ce-a143-852c40ef95c5</elementGuidId>
+   <elementGuidId>ba528afb-8f20-4ed7-ac6d-74c568d634c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[type='email'][placeholder='seu@email.com']&#xd;
-</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;email&quot;]</value>
+         <value>//*[@id=&quot;app&quot;] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
