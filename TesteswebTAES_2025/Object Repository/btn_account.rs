@@ -6,15 +6,15 @@
    <elementGuidId>9c668bc6-a2e0-4fd2-b5f0-820bf77d42c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[normalize-space()='Account']&#xd;
+  &#xd;
 &#xd;
 &#xd;
 </value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,7 +1,3 @@
-import java.awt.Robot
-import java.awt.event.KeyEvent
-import java.awt.Toolkit
-import java.awt.datatransfer.StringSelection
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -21,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('http://localhost:5173/')
 
 // Espera o link Login aparecer
@@ -34,12 +29,12 @@ WebUI.waitForElementVisible(findTestObject('email'), 10)
 WebUI.waitForElementVisible(findTestObject('password'), 10)
 
 
-WebUI.setText(findTestObject('email'), 'a1@mail.pt')
+WebUI.setText(findTestObject('email'), 'pe@mail.pt')
 WebUI.setText(findTestObject('password'), '123')
 
 WebUI.click(findTestObject('btn_signin'))
 
-// Espera a pagina aparecer 
+// Espera a pagina aparecer
 WebUI.waitForElementVisible(findTestObject('pag_inicial_logada'), 10)
 
 // Espera e hover sobre o menu account
@@ -52,37 +47,28 @@ WebUI.click(findTestObject('btn_profile'))
 
 WebUI.waitForElementVisible(findTestObject('pag_my_profile'), 10)
 
-WebUI.click(findTestObject('btn_choose_photo'))  
+WebUI.waitForElementVisible(findTestObject('btn_eliminarconta'), 10)
+WebUI.click(findTestObject('btn_eliminarconta'))
 
-String filePath = 'C:\\Users\\khoru\\Documents\\GitHub\\TAES2025_G3_DDV\\api\\public\\storage\\photos_avatars\\00002_5bAYBKmH0R.jpeg'
-StringSelection stringSelection = new StringSelection(filePath)
-Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null)
-Robot robot = new Robot()
+// PRIMEIRO POPUP (confirm)
+WebUI.waitForAlert(5)
+WebUI.acceptAlert()
 
-// Dá um pequeno delay para a janela abrir
-robot.delay(1000)
+// SEGUNDO POPUP (prompt - pedir password)
+WebUI.waitForAlert(5)
+WebUI.setAlertText('123')
+WebUI.acceptAlert()
 
-// 4️⃣ Ctrl+V para colar o caminho do arquivo
-robot.keyPress(KeyEvent.VK_CONTROL)
-robot.keyPress(KeyEvent.VK_V)
-robot.keyRelease(KeyEvent.VK_V)
-robot.keyRelease(KeyEvent.VK_CONTROL)
+WebUI.waitForElementVisible(findTestObject('btn_login'), 10)
 
-// 5️⃣ Pressiona Enter
-robot.keyPress(KeyEvent.VK_ENTER)
-robot.keyRelease(KeyEvent.VK_ENTER)
+// Clica no link para abrir o formulário de login
+WebUI.click(findTestObject('btn_login'))
 
-// 6️⃣ Dá um delay para o upload completar (ajuste se necessário)
-robot.delay(5)
-
-WebUI.waitForElementVisible(findTestObject('btn_save_photo'), 10)
-
-WebUI.click(findTestObject('btn_save_photo'))
-
-WebUI.waitForElementVisible(findTestObject('pag_my_profile'), 10)
-// Espera 2 segundos
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('email'), 10)
+WebUI.waitForElementVisible(findTestObject('password'), 10)
 
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('email'), 'pe@mail.pt')
+WebUI.setText(findTestObject('password'), '123')
 
+WebUI.click(findTestObject('btn_signin'))

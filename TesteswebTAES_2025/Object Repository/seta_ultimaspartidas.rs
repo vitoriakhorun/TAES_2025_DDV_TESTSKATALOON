@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_profile</name>
+   <name>seta_ultimaspartidas</name>
    <tag></tag>
-   <elementGuidId>2b5ccd51-ed39-4638-88d3-f23ffb691ed2</elementGuidId>
+   <elementGuidId>f0fc3f7f-3476-4c02-a76e-4b3ca395434b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[normalize-space()='Profile']&#xd;
- &#xd;
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div/div[2]/div/div/div[2]/div[2]/div[1]/div&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
 </value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

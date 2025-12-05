@@ -6,13 +6,13 @@
    <elementGuidId>ae2de60e-f239-4aaf-b0e1-2bb657b9aebb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='📷 Alterar Foto']&#xd;
+&#xd;
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div/main/div/div/div[1]/div[2]/div/div[2]/div/button &#xd;
-</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

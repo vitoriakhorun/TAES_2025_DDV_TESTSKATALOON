@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_profile</name>
+   <name>btn_veraccount</name>
    <tag></tag>
-   <elementGuidId>2b5ccd51-ed39-4638-88d3-f23ffb691ed2</elementGuidId>
+   <elementGuidId>8a0e5967-5e49-4266-81aa-3c774c7c9074</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[normalize-space()='Profile']&#xd;
- &#xd;
+         <value>//a[starts-with(@href, '/profile/')]&#xd;
 </value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

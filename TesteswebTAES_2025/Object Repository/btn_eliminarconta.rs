@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_profile</name>
+   <name>btn_eliminarconta</name>
    <tag></tag>
-   <elementGuidId>2b5ccd51-ed39-4638-88d3-f23ffb691ed2</elementGuidId>
+   <elementGuidId>b2674d92-65b2-403a-b8b3-3d700ed59153</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[normalize-space()='Profile']&#xd;
- &#xd;
+         <value>//button[normalize-space()='Eliminar Conta']&#xd;
 </value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
