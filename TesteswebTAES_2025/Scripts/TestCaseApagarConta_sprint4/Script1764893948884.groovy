@@ -72,3 +72,6 @@ WebUI.setText(findTestObject('email'), 'pe@mail.pt')
 WebUI.setText(findTestObject('password'), '123')
 
 WebUI.click(findTestObject('btn_signin'))
+
+WebUI.delay(3)
+WebUI.closeBrowser() 

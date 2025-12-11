@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://localhost:3001/')
+WebUI.openBrowser('http://localhost:5173/')
 
 // Espera o link Login aparecer
 WebUI.waitForElementVisible(findTestObject('btn_login'), 10)
@@ -29,10 +29,10 @@ WebUI.waitForElementVisible(findTestObject('email'), 10)
 WebUI.waitForElementVisible(findTestObject('password'), 10)
 
 
-WebUI.setText(findTestObject('email'), 'teste@email.com')
-WebUI.setText(findTestObject('password'), '123456')
+WebUI.setText(findTestObject('email'), 'a1@mail.pt')
+WebUI.setText(findTestObject('password'), '123')
 
-WebUI.click(findTestObject('btn_submit'))
+WebUI.click(findTestObject('btn_signin'))
 WebUI.delay(5)
 WebUI.closeBrowser()
 

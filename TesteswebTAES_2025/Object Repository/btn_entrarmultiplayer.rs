@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_name</name>
+   <name>btn_entrarmultiplayer</name>
    <tag></tag>
-   <elementGuidId>d768d6f7-0dc2-4914-a2d4-941b485edc76</elementGuidId>
+   <elementGuidId>a1f4ac3c-325a-476b-bd71-76abb6627c26</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']&#xd;
-&#xd;
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div[2]/section[2]/div/div/button &#xd;
 </value>
       </entry>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

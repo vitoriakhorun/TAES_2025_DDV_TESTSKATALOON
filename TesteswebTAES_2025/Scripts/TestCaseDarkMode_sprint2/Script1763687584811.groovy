@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://localhost:3001/')
+WebUI.openBrowser('http://localhost:5173/')
 // Espera o botão aparecer
-WebUI.waitForElementPresent(findTestObject('btn_darkmode'), 20)
 
-WebUI.waitForElementVisible(findTestObject('btn_darkmode'), 10)
+WebUI.waitForElementVisible(findTestObject('btn_darkmode'), 5)
 
 // Clica para ativar/desativar modo escuro
 WebUI.click(findTestObject('btn_darkmode'))

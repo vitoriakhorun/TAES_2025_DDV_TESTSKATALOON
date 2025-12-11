@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://localhost:3001/')
+WebUI.openBrowser('http://localhost:5173/')
 
 // 1. Clica no link Registar da landing page
 WebUI.waitForElementVisible(findTestObject('btn_registar'), 10)
@@ -25,23 +25,23 @@ WebUI.click(findTestObject('btn_registar'))
 
 // 2. Espera o formulário aparecer
 WebUI.waitForElementVisible(findTestObject('input_email'), 10)
+WebUI.waitForElementVisible(findTestObject('input_Password'), 10)
 WebUI.waitForElementVisible(findTestObject('input_nickname'), 10)
 WebUI.waitForElementVisible(findTestObject('input_name'), 10)
-WebUI.waitForElementVisible(findTestObject('input_Password'), 10)
 WebUI.waitForElementVisible(findTestObject('input_AvatarURL'), 10)
 
 // 3. Preenche os campos
 WebUI.setText(findTestObject('input_email'), 'teste@email.com')
 WebUI.setText(findTestObject('input_nickname'), 'MeuNick')
 WebUI.setText(findTestObject('input_name'), 'MeuNome')
-WebUI.setText(findTestObject('input_Password'), '123456')
+WebUI.setText(findTestObject('input_Password'), '123')
 WebUI.setText(findTestObject('input_AvatarURL'), 'https://exemplo.com/avatar.jpg')
 
 // 4. Clica no botão Registar
 WebUI.click(findTestObject('btn_SubmitRegister'))
 
 
-// 6. Fica 3 segundos na página logada
-WebUI.delay(3)
+// 6. Fica 5 segundos na página logada
+WebUI.delay(5)
 
 WebUI.closeBrowser()

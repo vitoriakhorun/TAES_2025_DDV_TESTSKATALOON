@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TestCaseVerContasJOGOS_sprint5</name>
+   <name>TestCaseApagarConta_sprint4</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>fc7cb9a6-a8ca-4c31-a31b-aa22c0718879</testCaseGuid>
+   <testCaseGuid>17c7a192-675c-4f1f-80f2-27c93f0ec969</testCaseGuid>
 </TestCaseEntity>

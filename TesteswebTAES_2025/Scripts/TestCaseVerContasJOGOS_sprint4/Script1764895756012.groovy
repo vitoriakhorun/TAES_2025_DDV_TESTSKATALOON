@@ -17,54 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// Abre o browser
-// Abre o browser e vai para a aplicação
-WebUI.openBrowser('http://localhost:3001/')
+WebUI.openBrowser('http://localhost:5173/')
 
-// Espera o link de Login aparecer e clica
+// Espera o link Login aparecer
 WebUI.waitForElementVisible(findTestObject('btn_login'), 10)
+
+// Clica no link para abrir o formulário de login
 WebUI.click(findTestObject('btn_login'))
 
-// Espera o formulário de login aparecer
 WebUI.waitForElementVisible(findTestObject('email'), 10)
 WebUI.waitForElementVisible(findTestObject('password'), 10)
 
-// Preenche os campos de login
-WebUI.setText(findTestObject('email'), 'teste@email.com')
-WebUI.setText(findTestObject('password'), '123456')
 
-// Submete o formulário
-WebUI.click(findTestObject('btn_submit'))
+WebUI.setText(findTestObject('email'), 'pe@mail.pt')
+WebUI.setText(findTestObject('password'), '123')
 
-// Espera o botão "Jogar Agora" aparecer
-WebUI.waitForElementVisible(findTestObject('btn_play_now'), 20)
-WebUI.click(findTestObject('btn_play_now'))
+WebUI.click(findTestObject('btn_signin'))
 
-// Pequeno delay para o componente SPA carregar
+// Espera a pagina aparecer
+WebUI.waitForElementVisible(findTestObject('pag_inicial_logada'), 10)
+
+// Espera e hover sobre o menu account
+WebUI.waitForElementVisible(findTestObject('btn_account'), 10)
+WebUI.mouseOver(findTestObject('btn_account'))
+
+// Agora o botão "profile" aparece
+WebUI.waitForElementVisible(findTestObject('btn_profile'), 10)
+WebUI.click(findTestObject('btn_profile'))
+
+WebUI.waitForElementVisible(findTestObject('pag_my_profile'), 10)
+
+WebUI.waitForElementVisible(findTestObject('btn_veraccount'), 10)
+WebUI.click(findTestObject('btn_veraccount'))
+
+
 WebUI.delay(2)
-
-// Espera o botão "Jogar" na seção "Modo de Jogo" aparecer
-WebUI.waitForElementVisible(findTestObject('btn_play_card'), 20)
-
-// Clica no botão "Jogar"
-WebUI.click(findTestObject('btn_play_card'))
-
-// Pequeno delay para o jogo carregar
-WebUI.delay(2)
-
-// Espera o input do nome do jogador aparecer
-WebUI.waitForElementVisible(findTestObject('input_player_name'), 10)
-
-// Preenche o nome do jogador
-WebUI.setText(findTestObject('input_player_name'), 'MeuNome')
-
-// Clica no botão "Conectar"
-WebUI.click(findTestObject('btn_conectar'))
-
-// Espera alguns segundos para o jogo iniciar
-WebUI.delay(3)
-
-// Se o botão "Novo Jogo" estiver habilitado, clica
-WebUI.waitForElementVisible(findTestObject('btn_novojogo'), 10, FailureHandling.OPTIONAL)
-WebUI.click(findTestObject('btn_novojogo', FailureHandling.OPTIONAL))
 WebUI.closeBrowser()

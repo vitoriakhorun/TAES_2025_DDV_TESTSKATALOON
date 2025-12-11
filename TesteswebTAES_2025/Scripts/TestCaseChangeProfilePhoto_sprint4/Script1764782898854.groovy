@@ -54,7 +54,7 @@ WebUI.waitForElementVisible(findTestObject('pag_my_profile'), 10)
 
 WebUI.click(findTestObject('btn_choose_photo'))  
 
-String filePath = 'C:\\Users\\khoru\\Documents\\GitHub\\TAES2025_G3_DDV\\api\\public\\storage\\photos_avatars\\00002_5bAYBKmH0R.jpeg'
+String filePath = 'C:\\Users\\khoru\\Documents\\GitHub\\TAES2025_G3_DDV\\api\\public\\storage\\photos_avatars\\00005_z70DCbNoV5.jpeg'
 StringSelection stringSelection = new StringSelection(filePath)
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null)
 Robot robot = new Robot()
@@ -79,7 +79,6 @@ WebUI.waitForElementVisible(findTestObject('btn_save_photo'), 10)
 
 WebUI.click(findTestObject('btn_save_photo'))
 
-WebUI.waitForElementVisible(findTestObject('pag_my_profile'), 10)
 // Espera 2 segundos
 WebUI.delay(2)
 

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_name</name>
+   <name>btn_jogarnovamente</name>
    <tag></tag>
-   <elementGuidId>d768d6f7-0dc2-4914-a2d4-941b485edc76</elementGuidId>
+   <elementGuidId>ac9c7b05-5994-4ec1-a6ee-44d91b4a20be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']&#xd;
+         <value>//button[contains(@class,'restart-btn')]&#xd;
 &#xd;
 </value>
       </entry>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

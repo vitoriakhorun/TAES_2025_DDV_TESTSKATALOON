@@ -6,15 +6,20 @@
    <elementGuidId>f9425eec-f0ac-4dc9-89b5-2098eb08241b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>//input[@id='email']&#xd;
+</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[type='text'].input:nth-of-type(1)</value>
+         <key>XPATH</key>
+         <value>//input[@id='nickname']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

@@ -6,14 +6,21 @@
    <elementGuidId>7aa5c36c-1a4b-4cdb-9912-9db0a6025100</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@title='Toggle dark mode']&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(@class,'rounded-lg') and contains(@class,'text-contrast-secondary')]&#xd;
-&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Guardar Foto']&#xd;
+         <value>//button[text()='Guardar Foto']&#xd;
+&#xd;
 </value>
       </entry>
       <entry>

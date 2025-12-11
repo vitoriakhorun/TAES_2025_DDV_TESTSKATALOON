@@ -6,12 +6,12 @@
    <elementGuidId>8e6d7c84-0bf3-46a6-8865-5665c596309a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@data-slot='button' and .//span[text()='Bisca de 3']]&#xd;
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div/main/div/div[1]/div[2]/div[3]/button[1] </value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

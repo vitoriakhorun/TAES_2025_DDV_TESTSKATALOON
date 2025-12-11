@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_name</name>
+   <name>btn_lobby</name>
    <tag></tag>
-   <elementGuidId>d768d6f7-0dc2-4914-a2d4-941b485edc76</elementGuidId>
+   <elementGuidId>87013df4-ee5c-4bb2-9109-f9bf576e3bb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']&#xd;
-&#xd;
-</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div[2]/div[2]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

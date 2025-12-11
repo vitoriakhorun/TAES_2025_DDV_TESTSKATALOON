@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_name</name>
+   <name>btn_multiplayerbisca3</name>
    <tag></tag>
-   <elementGuidId>d768d6f7-0dc2-4914-a2d4-941b485edc76</elementGuidId>
+   <elementGuidId>68aac6fd-ecc3-46f6-9ea0-57a9ba821164</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']&#xd;
-&#xd;
-</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//*[@id=&quot;app&quot;]/div/main/div/div[2]/section[1]/button[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,16 +6,21 @@
    <elementGuidId>7a53d8e8-9f96-41c6-ba46-139793f402a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>a.btn-primary&#xd;
+         <value>//a[text()='Register']&#xd;
+&#xd;
 </value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[text()='Register']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

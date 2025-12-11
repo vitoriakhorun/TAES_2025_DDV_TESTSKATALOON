@@ -6,13 +6,13 @@
    <elementGuidId>beff4ccf-ebc9-43ce-9887-8d2805a0cc9f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[normalize-space()='Registar e Entrar']&#xd;
+&#xd;
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[normalize-space(text())='Registar']&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

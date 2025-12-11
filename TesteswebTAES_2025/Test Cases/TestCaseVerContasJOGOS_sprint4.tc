@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TestCasePlay_sprint2</name>
+   <name>TestCaseVerContasJOGOS_sprint4</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5371e165-178b-4f2e-85a0-2fb5e2b2bff8</testCaseGuid>
+   <testCaseGuid>fc7cb9a6-a8ca-4c31-a31b-aa22c0718879</testCaseGuid>
 </TestCaseEntity>
