@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCaseFiltrarPartidasPelaDataInicioFim_sprint5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e20cd5f4-498f-466f-ac40-bfeb58928d93</testCaseGuid>
+</TestCaseEntity>

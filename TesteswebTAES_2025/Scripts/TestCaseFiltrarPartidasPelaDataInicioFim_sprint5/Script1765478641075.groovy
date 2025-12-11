@@ -46,8 +46,29 @@ WebUI.waitForElementVisible(findTestObject('btn_profile'), 10)
 WebUI.click(findTestObject('btn_profile'))
 
 WebUI.waitForElementVisible(findTestObject('pag_my_profile'), 10)
-
-
-
+WebUI.click(findTestObject('btn_verhistoricocompleto'))
+WebUI.setText(findTestObject('input_datafiltro'), '01/12/2025')
+WebUI.setText(findTestObject('input_datafim'), '10/12/2025')
+WebUI.click(findTestObject('btn_aplicarfiltro'))
 WebUI.delay(2)
+WebUI.click(findTestObject('btn_limparfiltro'))
+WebUI.delay(2)
+WebUI.click(findTestObject('btn_selectresultado'))
+WebUI.click(findTestObject('btn_apenasvitorias'))
+WebUI.click(findTestObject('btn_aplicarfiltro'))
+WebUI.delay(2)
+WebUI.click(findTestObject('btn_limparfiltro'))
+WebUI.click(findTestObject('btn_apenasderrotas'))
+WebUI.click(findTestObject('btn_aplicarfiltro'))
+WebUI.delay(2)
+WebUI.click(findTestObject('btn_limparfiltro'))
+WebUI.click(findTestObject('btn_apenasjogos'))
+WebUI.click(findTestObject('btn_aplicarfiltro'))
+WebUI.delay(2)
+WebUI.click(findTestObject('btn_limparfiltro'))
+WebUI.click(findTestObject('btn_apenaspartidas'))
+WebUI.click(findTestObject('btn_aplicarfiltro'))
+WebUI.delay(2)
+
+
 WebUI.closeBrowser()

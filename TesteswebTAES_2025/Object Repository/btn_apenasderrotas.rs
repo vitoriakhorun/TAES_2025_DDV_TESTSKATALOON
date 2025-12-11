@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_profile</name>
+   <name>btn_apenasderrotas</name>
    <tag></tag>
-   <elementGuidId>2b5ccd51-ed39-4638-88d3-f23ffb691ed2</elementGuidId>
+   <elementGuidId>1e4edb0b-fb8c-4b15-98b4-19b840560e19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@href=&quot;/profile/9&quot;]&#xd;
-&#xd;
- &#xd;
+         <value>//select/option[@value=&quot;loss&quot;]&#xd;
 </value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
