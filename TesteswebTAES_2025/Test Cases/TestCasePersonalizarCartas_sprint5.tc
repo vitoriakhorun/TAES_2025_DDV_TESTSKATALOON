@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCasePersonalizarCartas_sprint5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d05b5376-088b-4b45-aebe-0c1c56f6063b</testCaseGuid>
+</TestCaseEntity>
