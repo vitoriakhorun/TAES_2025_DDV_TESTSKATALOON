@@ -6,14 +6,15 @@
    <elementGuidId>2b5ccd51-ed39-4638-88d3-f23ffb691ed2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[@href=&quot;/profile/9&quot;]&#xd;
+         <value>//*[@id=&quot;reka-navigation-menu-v-0-content-reka-v-5&quot;]/li/a[1]&#xd;
+&#xd;
 &#xd;
  &#xd;
 </value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

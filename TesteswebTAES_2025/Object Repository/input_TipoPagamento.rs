@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@class='w-full rounded-md border bg-transparent px-3 py-2 text-sm shadow-sm']&#xd;
+         <value>//select[option[@value='MBWAY']]&#xd;
+&#xd;
 </value>
       </entry>
    </selectorCollection>

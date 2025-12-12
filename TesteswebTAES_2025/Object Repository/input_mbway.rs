@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//option[@value='MBWAY']&#xd;
+         <value>//select[option[@value='MBWAY']]/option[@value='MBWAY']&#xd;
+&#xd;
 </value>
       </entry>
    </selectorCollection>
