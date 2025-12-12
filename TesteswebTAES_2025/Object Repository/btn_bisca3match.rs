@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>carta1</name>
+   <name>btn_bisca3match</name>
    <tag></tag>
-   <elementGuidId>18ad7423-013e-454a-ac41-d87dfa07ff02</elementGuidId>
+   <elementGuidId>8e6d7c84-0bf3-46a6-8865-5665c596309a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div/main/div/div[3]/div[2]/div[1]/img&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[.//span[text()='Bisca de 3'] and .//span[text()='Melhor de 4']]&#xd;
+&#xd;
+&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

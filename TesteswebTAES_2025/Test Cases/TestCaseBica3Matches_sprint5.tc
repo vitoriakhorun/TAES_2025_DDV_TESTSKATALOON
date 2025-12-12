@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TestCaseBisca9_sprint4</name>
+   <name>TestCaseBica3Matches_sprint5</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7b5c6180-ffde-4aff-8e86-d2308f667b05</testCaseGuid>
+   <testCaseGuid>904561a8-35b6-4e69-9733-977e177d51fb</testCaseGuid>
 </TestCaseEntity>

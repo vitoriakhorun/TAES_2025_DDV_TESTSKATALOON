@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>carta1</name>
+   <name>btn_proxima_ronda</name>
    <tag></tag>
-   <elementGuidId>18ad7423-013e-454a-ac41-d87dfa07ff02</elementGuidId>
+   <elementGuidId>32104adc-86c3-4690-97c7-072d94f84b4c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div/main/div/div[3]/div[2]/div[1]/img&#xd;
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[text()=' Próxima Ronda ➜ ']&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

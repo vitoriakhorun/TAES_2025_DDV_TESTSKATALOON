@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>carta1</name>
+   <name>btn_practicegame3</name>
    <tag></tag>
-   <elementGuidId>18ad7423-013e-454a-ac41-d87dfa07ff02</elementGuidId>
+   <elementGuidId>afa5801a-9d3f-421d-a894-19b8d4f7b248</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div/main/div/div[3]/div[2]/div[1]/img&#xd;
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@data-slot='button' and .//span[text()='Practice 3']]&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

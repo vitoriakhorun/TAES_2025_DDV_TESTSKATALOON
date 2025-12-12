@@ -3,15 +3,16 @@
    <description></description>
    <name>btn_bisca3</name>
    <tag></tag>
-   <elementGuidId>8e6d7c84-0bf3-46a6-8865-5665c596309a</elementGuidId>
+   <elementGuidId>537ec27f-7a8e-4f00-a755-92d74ed04a20</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@data-slot='button' and .//span[text()='Bisca de 3']]&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[.//span[text()='Bisca 3'] and .//span[text()='Morte Súbita']]&#xd;
+&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -17,43 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// --- ABRIR BROWSER E ACEDER AO SITE ---
 WebUI.openBrowser('http://localhost:5173/')
-WebUI.maximizeWindow()
-
-// --- LOGIN ---
-WebUI.waitForElementVisible(findTestObject('btn_login'), 10)
-WebUI.click(findTestObject('btn_login'))
-
-WebUI.waitForElementVisible(findTestObject('email'), 10)
-WebUI.waitForElementVisible(findTestObject('password'), 10)
-WebUI.setText(findTestObject('email'), 'pa@mail.pt')
-WebUI.setText(findTestObject('password'), '123')
-
-WebUI.click(findTestObject('btn_signin'))
-WebUI.waitForElementVisible(findTestObject('pag_inicial_logada'), 10)
-
-// --- NAVEGAR PARA LOJA ---
-WebUI.click(findTestObject('btn_shop'))
-
-// --- VERIFICAR BOTÃO "Equip" ---
-if (WebUI.verifyElementVisible(findTestObject('btn_equip'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('btn_equip'))
-    println("Botão 'Equip' clicado com sucesso.")
-    WebUI.delay(1)
-} else {
-    println("Botão 'Equip' não encontrado. Fechando teste.")
-    WebUI.closeBrowser()
-    return
-}
-
+WebUI.click(findTestObject('btn_practicegame3'))
 WebUI.delay(3)
-
-WebUI.click(findTestObject('btn_homePage'))
-
-WebUI.click(findTestObject('btn_bisca3match'))
-WebUI.waitForElementVisible(findTestObject('pag_tabuleirobisca3'), 10)
-
-WebUI.delay(3)
-// --- FECHAR BROWSER ---
 WebUI.closeBrowser()

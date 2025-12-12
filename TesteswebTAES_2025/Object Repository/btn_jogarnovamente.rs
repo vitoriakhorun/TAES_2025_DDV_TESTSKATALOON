@@ -6,14 +6,14 @@
    <elementGuidId>ac9c7b05-5994-4ec1-a6ee-44d91b4a20be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(@class,'restart-btn')]&#xd;
-&#xd;
-</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[text()='Jogar Novamente']&#xd;
+&#xd;
+&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
