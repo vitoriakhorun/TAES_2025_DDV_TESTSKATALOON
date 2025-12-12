@@ -70,7 +70,7 @@ while (!fimDoJogo) {
 		// Contagem antes
 		int antes = DriverFactory.getWebDriver()
 				.findElements(By.xpath("//img[@alt='Carta']")).size()
-		
+		WebUI.delay(1)
 		carta.click()
 		
 

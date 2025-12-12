@@ -76,7 +76,7 @@ while (!fimDoJogo) {
 				.findElements(By.xpath("//img[@alt='Carta']")).size()
 		WebUI.delay(1)
 		carta.click()
-		WebUI.delay(1)
+		
 
 		// Contagem depois
 		int depois = DriverFactory.getWebDriver()
