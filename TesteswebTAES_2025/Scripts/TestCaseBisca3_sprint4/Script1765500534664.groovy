@@ -43,6 +43,8 @@ WebUI.waitForElementVisible(findTestObject('pag_inicial_logada'), 10)
 // --- ENTRAR NO JOGO ---
 WebUI.click(findTestObject('btn_bisca3'))
 WebUI.waitForElementVisible(findTestObject('pag_tabuleirobisca3'), 10)
+WebUI.executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+WebUI.delay(1)
 
 // --- LOOP DO JOGO ---
 boolean fimDoJogo = false

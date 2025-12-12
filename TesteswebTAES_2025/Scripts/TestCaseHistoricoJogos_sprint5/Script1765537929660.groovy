@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
@@ -29,14 +28,11 @@ import com.kms.katalon.core.testobject.TestObject
 // --- ABRIR SITE ---
 WebUI.openBrowser('http://localhost:5173/')
 WebUI.maximizeWindow()
-WebUI.executeJavaScript(
-	"document.querySelector('.vue-devtools__anchor-btn')?.style.setProperty('display','none','important')",
-	null
-)
 
 // --- LOGIN ---
 WebUI.waitForElementVisible(findTestObject('btn_login'), 10)
 WebUI.click(findTestObject('btn_login'))
+
 WebUI.waitForElementVisible(findTestObject('email'), 10)
 WebUI.setText(findTestObject('email'), 'pe@mail.pt')
 WebUI.setText(findTestObject('password'), '123')
@@ -44,9 +40,19 @@ WebUI.setText(findTestObject('password'), '123')
 WebUI.click(findTestObject('btn_signin'))
 WebUI.waitForElementVisible(findTestObject('pag_inicial_logada'), 10)
 
+
+// Espera e hover sobre o menu account
+WebUI.waitForElementVisible(findTestObject('btn_account'), 5)
+WebUI.mouseOver(findTestObject('btn_account'))
+// Agora o botão "profile" aparece
+WebUI.waitForElementVisible(findTestObject('btn_profile'), 5)
+WebUI.click(findTestObject('btn_profile'))
+WebUI.delay(3)
+WebUI.click(findTestObject('btn_homePage'))
 // --- ENTRAR NO JOGO ---
-WebUI.click(findTestObject('btn_bisca9'))
-WebUI.waitForElementVisible(findTestObject('pag_tabuleirobisca9'), 10)
+WebUI.click(findTestObject('btn_bisca3'))
+WebUI.waitForElementVisible(findTestObject('pag_tabuleirobisca3'), 10)
+// --- FAZER SCROLL PARA O FINAL DA PÁGINA ---
 WebUI.executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
 WebUI.delay(1)
 
@@ -74,9 +80,9 @@ while (!fimDoJogo) {
 		// Contagem antes
 		int antes = DriverFactory.getWebDriver()
 				.findElements(By.xpath("//img[@alt='Carta']")).size()
-		WebUI.delay(1)
+		
 		carta.click()
-		WebUI.delay(1)
+		
 
 		// Contagem depois
 		int depois = DriverFactory.getWebDriver()
@@ -92,11 +98,17 @@ while (!fimDoJogo) {
 
 	// Nenhuma carta válida → esperar vez do oponente
 	if (!jogou) {
-		WebUI.delay(1)
+		WebUI.delay(0.2)
 	}
 }
 
 WebUI.click(findTestObject('btn_homePage'))
+WebUI.waitForElementVisible(findTestObject('btn_account'), 5)
+WebUI.mouseOver(findTestObject('btn_account'))
+// Agora o botão "profile" aparece
+WebUI.waitForElementVisible(findTestObject('btn_profile'), 5)
+WebUI.click(findTestObject('btn_profile'))
 WebUI.delay(3)
+
 // --- FECHAR ---
 WebUI.closeBrowser()
