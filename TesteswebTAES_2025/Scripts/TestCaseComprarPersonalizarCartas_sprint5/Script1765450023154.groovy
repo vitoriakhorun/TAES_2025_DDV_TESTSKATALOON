@@ -38,7 +38,7 @@ WebUI.waitForElementVisible(findTestObject('pag_inicial_logada'), 10)
 WebUI.click(findTestObject('btn_shop'))
 
 // --- VERIFICAR BOTÃO "Comprar Personalização" ---
-if (WebUI.verifyElementVisible(findTestObject('btn_comprarpersonalizacao'), FailureHandling.OPTIONAL)) {
+WebUI.verifyElementVisible(findTestObject('btn_comprarpersonalizacao'), FailureHandling.OPTIONAL)
     WebUI.click(findTestObject('btn_comprarpersonalizacao'))
 
     // Espera e aceita alert de confirmação
@@ -51,11 +51,6 @@ if (WebUI.verifyElementVisible(findTestObject('btn_comprarpersonalizacao'), Fail
     WebUI.executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
     WebUI.delay(2)
 
-} else {
-    println("Botão 'Comprar Personalização' não encontrado. Fechando teste.")
-    WebUI.closeBrowser()
-    return
-}
 
 // --- FECHAR BROWSER ---
 WebUI.closeBrowser()

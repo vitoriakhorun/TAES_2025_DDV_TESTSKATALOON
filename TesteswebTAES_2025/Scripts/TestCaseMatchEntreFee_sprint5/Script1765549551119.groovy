@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('password'), '123')
 WebUI.click(findTestObject('btn_signin'))
 
 
-WebUI.click(findTestObject('btn_bisca3'))
+WebUI.click(findTestObject('btn_bisca3match'))
 
 WebUI.delay(3)
 
